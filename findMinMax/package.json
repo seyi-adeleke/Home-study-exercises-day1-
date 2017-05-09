@@ -1,0 +1,14 @@
+{
+  "name": "findminmax",
+  "version": "1.0.0",
+  "description": "a function to find the minimum and maximum numbers in an array",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "adetokunbo adeleke",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
