@@ -1,5 +1,5 @@
 exports.findMinMax = (myArray)=>{
-    //create a new array to save the min and mxs
+    //create a new array to save the min and max
     let newArray = [];
     //use the reduce function to check each element in the array and return the maximum
     let max = myArray.reduce(function(element1,element2){
@@ -14,7 +14,7 @@ exports.findMinMax = (myArray)=>{
     // add the maximum to the end of the new array
     newArray.push(max);
 
-    //use the reduce function to check each element int the array and return the minimum
+    //use the reduce function to check each element in the array and return the minimum
     let min = myArray.reduce(function(element1,element2){
         if( element1 < element2){
             return element1;
