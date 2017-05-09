@@ -1,0 +1,14 @@
+{
+  "name": "datatypes",
+  "version": "1.0.0",
+  "description": "A function to compare and return results based on the argument supplied",
+  "main": "dataTypes.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "adetokunbo adeleke",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
